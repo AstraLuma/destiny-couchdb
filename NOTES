@@ -1,0 +1,9 @@
+all response return a wrapper:
+
+* ErrorCode: int (PlatformErrorCodes)
+* ErrorStatus: str
+* Message: str
+* MessageData: dict
+* Response: T
+* ThrottleSeconds: int
+* DetailedErrorTrace: str | Missing

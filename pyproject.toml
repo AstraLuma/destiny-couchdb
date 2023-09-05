@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "destiny-couchdb"
+version = "0.1.0"
+description = "Tools to put Destiny data into CouchDB"
+authors = ["Jamie Bliss <jamie@ivyleav.es>"]
+license = "WTFPL"
+readme = "README.md"
+packages = [{include = "destiny_couchdb"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = {extras = ["http2"], version = "^0.24.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
